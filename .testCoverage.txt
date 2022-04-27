@@ -1,0 +1,6 @@
+mode: set
+learn-go-with-tests/src/adder.go:3.24,5.2 1 1
+learn-go-with-tests/src/hello.go:9.32,10.16 1 1
+learn-go-with-tests/src/hello.go:14.2,14.41 1 1
+learn-go-with-tests/src/hello.go:10.16,12.3 1 1
+learn-go-with-tests/src/hello.go:17.13,19.2 1 0
