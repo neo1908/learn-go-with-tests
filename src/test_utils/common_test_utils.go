@@ -19,6 +19,13 @@ func ValidateIntTestState(got int, want int, t testing.TB) {
 	}
 }
 
+func ValidateFloatTestState(got float64, want float64, t testing.TB) {
+	t.Helper()
+	if got != want {
+		t.Errorf("Got %.2f, wanted %.2f", got, want)
+	}
+}
+
 func ValidateSliceTestState(got []int, want []int, t testing.TB) {
 	t.Helper()
 
